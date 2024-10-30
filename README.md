@@ -9,9 +9,28 @@ Aquest objecte té un atribut estàtic, una llista on desarem les ordres registr
 Una altra opció de menú permet d'eliminar l'última ordre entrada, i una altre la de llistar les ordres desades a la llista començant per les més recents.
 Aquesta instància compleix també el propòsit de ser accessible des de qualsevol part de l'applicació.
 
-Per provar aquesta aplicació, executar el Main i interactuar amb la consola.
-
 ## Instruccions d'instal·lació
+Tecnologies Utilitzades : IDE IntelliJ Idea v 2024.2.2 (Community Edition), Java, SDK openjdk-22 Oracle OpenJDK 22.0.2
+Requisits: SDK openjdk-22 Oracle OpenJDK 22.0.2.
+
+# Instal·lació: 
+1. Clonar el repositorio de Github
+git clone https://github.com/g-lemoing/S3.01_Patterns1.git
+2. Abrir el IDE e importar el proyecto desde el repositorio local desde File > Open.
+
+# Ejecución:
+Localizar y abrir las classes Main de cada ejercicio, y ejecutarlas con el Run.
+
+## Contribucions:
+1. Crear un fork del repositorio: 
+2. Clonar el repositorio hacia el directorio local marcado por git bash
+ git clone https://github.com/YOUR-USERNAME/S3.01_Patterns1
+3. Crear una rama
+git branch BRANCH-NAME
+git checkout BRANCH-NAME
+4. Realizar cambios o comentarios, y hacer un commit: git commit -m 'mensaje cambios'
+5. Subir cambios a tu nueva rama: git push origin BRANCH-NAME
+6. Hacer un pull request
 
 
-## Contribucions
+
