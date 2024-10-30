@@ -6,7 +6,7 @@ Definint el constructor d'aquesta classe Undo com a privat, impedim instanciar-l
 Aquest objecte té un atribut estàtic, una llista on desarem les ordres registrades per l'usuari ("Crear registre", "Modificar registre", "Eliminar registre"), a través de 3 opcions de menú.
 Una altra opció de menú permet d'eliminar l'última ordre entrada, i una altre la de llistar les ordres desades a la llista començant per les més recents.
 Aquesta instància compleix també el propòsit de ser accessible des de qualsevol part de l'applicació.
-
+Per provar aquesta aplicació, executar el Main i interactuar amb la consola.
 
 ## Instruccions d'instal·lació
 
