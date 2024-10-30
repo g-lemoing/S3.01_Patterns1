@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27c5e564-6ffb-4c53-bd29-acbc82b9b9e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="27c5e564-6ffb-4c53-bd29-acbc82b9b9e7" name="Changes" comment="Modifications Nivell1">
       <change beforePath="$PROJECT_DIR$/src/nivell1/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nivell1/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nivell1/modules/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nivell1/modules/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nivell1/modules/Undo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nivell1/modules/Undo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +63,31 @@
       <option name="presentableId" value="Default" />
       <updated>1730224166969</updated>
     </task>
+    <task id="LOCAL-00001" summary="Modifications Nivell1">
+      <option name="closed" value="true" />
+      <created>1730305234865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730305234865</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Modifications Nivell1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifications Nivell1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

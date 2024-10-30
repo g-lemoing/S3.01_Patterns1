@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Undo {
     private static Undo cmdList;
-    private static ArrayList<String> historic = new ArrayList<>();
+    private static final ArrayList<String> historic = new ArrayList<>();
 
     private Undo(){
     }
