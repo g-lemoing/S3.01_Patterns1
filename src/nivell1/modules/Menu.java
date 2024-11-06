@@ -1,6 +1,5 @@
 package nivell1.modules;
 
-import java.util.EmptyStackException;
 import java.util.InputMismatchException;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
