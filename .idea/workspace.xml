@@ -4,25 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27c5e564-6ffb-4c53-bd29-acbc82b9b9e7" name="Changes" comment="Modifications2 Nivell1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nivell2/country_implementation/PortugalAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nivell2/country_implementation/PortugalPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nivell2/country_implementation/SpainAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nivell2/country_implementation/SpainPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nivell2/country_implementation/UkAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nivell2/country_implementation/UkPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nivell2/country_implementation/Utilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nivell2/interfaces/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nivell2/interfaces/AgendaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nivell2/interfaces/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nivell2/main/Agenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nivell2/main/AgendaEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nivell2/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nivell2/main/Menu.java" afterDir="false" />
+    <list default="true" id="27c5e564-6ffb-4c53-bd29-acbc82b9b9e7" name="Changes" comment="Modify Menu Nivell1">
+      <change afterPath="$PROJECT_DIR$/src/nivell2/country_factory/PortugalAgenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nivell2/country_factory/SpainAgenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nivell2/country_factory/UkAgenda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nivell1/modules/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nivell1/modules/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nivell1/modules/Undo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nivell1/modules/Undo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nivell2/interfaces/AgendaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nivell2/interfaces/AgendaFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nivell2/main/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nivell2/main/Agenda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +96,31 @@
       <option name="project" value="LOCAL" />
       <updated>1730305435356</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First commit Nivell2">
+      <option name="closed" value="true" />
+      <created>1730890774954</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730890774954</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Modify Menu Nivell1">
+      <option name="closed" value="true" />
+      <created>1730891137719</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730891137719</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Modify Menu Nivell1">
+      <option name="closed" value="true" />
+      <created>1730891166374</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730891166374</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,7 +137,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Modifications Nivell1" />
     <MESSAGE value="Modifications2 Nivell1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modifications2 Nivell1" />
+    <MESSAGE value="First commit Nivell2" />
+    <MESSAGE value="Modify Menu Nivell1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify Menu Nivell1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

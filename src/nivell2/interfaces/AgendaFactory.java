@@ -1,6 +1,6 @@
 package nivell2.interfaces;
 
 public interface AgendaFactory {
-    Phone createPhone(String number);
+    Phone createPhone();
     Address createAddress();
 }

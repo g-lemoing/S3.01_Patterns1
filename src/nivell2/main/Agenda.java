@@ -1,6 +1,8 @@
 package nivell2.main;
 
-import nivell2.country_implementation.*;
+import nivell2.country_factory.PortugalAgenda;
+import nivell2.country_factory.SpainAgenda;
+import nivell2.country_factory.UkAgenda;
 import nivell2.interfaces.Address;
 import nivell2.interfaces.Phone;
 
@@ -22,22 +24,22 @@ public class Agenda {
 
         switch (country) {
             case "Espanya":
-                phone = new SpainPhone();
-                address = new SpainAddress();
+                phone = new SpainAgenda().createPhone();
+                address = new SpainAgenda().createAddress();
                 break;
             case "Portugal":
-                phone = new PortugalPhone();
-                address = new PortugalAddress();
+                phone = new PortugalAgenda().createPhone();
+                address = new PortugalAgenda().createAddress();
                 break;
             case "Regne Unit":
-                phone = new UkPhone();
-                address = new UkAddress();
+                phone = new UkAgenda().createPhone();
+                address = new UkAgenda().createAddress();
                 break;
             default:
                 System.out.println("País no reconegut, s'anul·la l'entrada.");
         }
 
-        if(phone != null && address != null){
+        if(phone != null){
             phoneNr = phone.askPhone();
             street = address.askStreet();
             streetNr = address.askStreetNr();
