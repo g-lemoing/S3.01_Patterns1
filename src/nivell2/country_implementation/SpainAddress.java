@@ -33,7 +33,7 @@ public class SpainAddress implements Address {
         final String REGEX_STR = "^(?:0[1-9]\\d{3}|[1-4]\\d{4}|5[0-2]\\d{3})$";
         String zipCode;
         do{
-            zipCode = Menu.askAddressElem("Entreu el codi postal de 5 dígits: ");
+            zipCode = Menu.askAddressElem("Entreu el codi postal de 5 dígits, entre '01000' i '52999': ");
         }
         while (!Utilities.isValidPattern(zipCode, REGEX_STR));
         return zipCode;

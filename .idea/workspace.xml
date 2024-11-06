@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27c5e564-6ffb-4c53-bd29-acbc82b9b9e7" name="Changes" comment="Modify Menu Nivell1">
-      <change afterPath="$PROJECT_DIR$/src/nivell2/country_factory/PortugalAgenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nivell2/country_factory/SpainAgenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nivell2/country_factory/UkAgenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nivell2/interfaces/AgendaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nivell2/interfaces/AgendaFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nivell2/main/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nivell2/main/Agenda.java" afterDir="false" />
+    <list default="true" id="27c5e564-6ffb-4c53-bd29-acbc82b9b9e7" name="Changes" comment="Modify N2 Add Countries factories">
+      <change beforePath="$PROJECT_DIR$/src/nivell2/country_implementation/SpainAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nivell2/country_implementation/SpainAddress.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730891166374</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Modify N2 Add Countries factories">
+      <option name="closed" value="true" />
+      <created>1730893887504</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730893887504</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,7 +142,8 @@
     <MESSAGE value="Modifications2 Nivell1" />
     <MESSAGE value="First commit Nivell2" />
     <MESSAGE value="Modify Menu Nivell1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify Menu Nivell1" />
+    <MESSAGE value="Modify N2 Add Countries factories" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify N2 Add Countries factories" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
