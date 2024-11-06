@@ -52,8 +52,6 @@ public class Menu {
                 try{
                     String removedCmd = undo.undoCmd();
                     System.out.println(" > Ordre " + removedCmd + " desfeta!");
-                }catch (EmptyStackException e){
-                    System.out.println("No es pot desfer l'última ordre: l'històric està buit.");
                 }
                 catch (NoSuchElementException e){
                     System.out.println("No es pot desfer l'última ordre: l'històric està buit.");
