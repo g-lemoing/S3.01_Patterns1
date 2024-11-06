@@ -4,8 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27c5e564-6ffb-4c53-bd29-acbc82b9b9e7" name="Changes" comment="Modifications Nivell1">
-      <change beforePath="$PROJECT_DIR$/src/nivell1/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nivell1/main/Main.java" afterDir="false" />
+    <list default="true" id="27c5e564-6ffb-4c53-bd29-acbc82b9b9e7" name="Changes" comment="Modifications2 Nivell1">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nivell2/country_implementation/PortugalAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nivell2/country_implementation/PortugalPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nivell2/country_implementation/SpainAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nivell2/country_implementation/SpainPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nivell2/country_implementation/UkAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nivell2/country_implementation/UkPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nivell2/country_implementation/Utilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nivell2/interfaces/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nivell2/interfaces/AgendaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nivell2/interfaces/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nivell2/main/Agenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nivell2/main/AgendaEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nivell2/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nivell2/main/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nivell1/modules/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nivell1/modules/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nivell1/modules/Undo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nivell1/modules/Undo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -35,6 +52,9 @@
     "accountId": "823f34a6-ea7e-4c19-933e-e6b14dea31b7"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
@@ -50,10 +70,19 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="nivell2.country_implementation" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730305234865</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Modifications2 Nivell1">
+      <option name="closed" value="true" />
+      <created>1730305435356</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730305435356</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,7 +124,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Modifications Nivell1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modifications Nivell1" />
+    <MESSAGE value="Modifications2 Nivell1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifications2 Nivell1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
