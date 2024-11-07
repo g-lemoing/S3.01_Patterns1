@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27c5e564-6ffb-4c53-bd29-acbc82b9b9e7" name="Changes" comment="Modify N2 Regex ZipCode Spain">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="27c5e564-6ffb-4c53-bd29-acbc82b9b9e7" name="Changes" comment="Modify N2 Remove Extends AgendaEntry">
       <change beforePath="$PROJECT_DIR$/src/nivell2/country_factory/PortugalAgenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nivell2/country_factory/PortugalAgenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nivell2/country_factory/SpainAgenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nivell2/country_factory/SpainAgenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nivell2/country_factory/UkAgenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nivell2/country_factory/UkAgenda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730893967841</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Modify N2 Remove Extends AgendaEntry">
+      <option name="closed" value="true" />
+      <created>1730980371447</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730980371447</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,7 +160,8 @@
     <MESSAGE value="Modify Menu Nivell1" />
     <MESSAGE value="Modify N2 Add Countries factories" />
     <MESSAGE value="Modify N2 Regex ZipCode Spain" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify N2 Regex ZipCode Spain" />
+    <MESSAGE value="Modify N2 Remove Extends AgendaEntry" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify N2 Remove Extends AgendaEntry" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
