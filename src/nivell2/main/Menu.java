@@ -39,9 +39,10 @@ public class Menu {
             printMenu();
             try {
                 sel = scanner.nextByte();
-                scanner.nextLine();
             }catch (InputMismatchException e) {
                 sel = -1;
+            }finally {
+                scanner.nextLine();
             }
         }
         while(sel < 0 || sel > 2);
