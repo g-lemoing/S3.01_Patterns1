@@ -5,9 +5,8 @@ import nivell2.country_implementation.SpainPhone;
 import nivell2.interfaces.Address;
 import nivell2.interfaces.AgendaFactory;
 import nivell2.interfaces.Phone;
-import nivell2.main.AgendaEntry;
 
-public class SpainAgenda extends AgendaEntry implements AgendaFactory {
+public class SpainAgenda implements AgendaFactory {
 
     @Override
     public Phone createPhone() {

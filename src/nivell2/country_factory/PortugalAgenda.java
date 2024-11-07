@@ -7,7 +7,8 @@ import nivell2.interfaces.AgendaFactory;
 import nivell2.interfaces.Phone;
 import nivell2.main.AgendaEntry;
 
-public class PortugalAgenda extends AgendaEntry implements AgendaFactory {
+public class PortugalAgenda implements AgendaFactory {
+
     @Override
     public Phone createPhone() {
         return new PortugalPhone();
