@@ -1,5 +1,6 @@
 package nivell2.main;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Menu {
@@ -36,8 +37,12 @@ public class Menu {
         boolean exit = false;
         do{
             printMenu();
-            sel = scanner.nextByte();
-            scanner.nextLine();
+            try {
+                sel = scanner.nextByte();
+                scanner.nextLine();
+            }catch (InputMismatchException e) {
+                sel = -1;
+            }
         }
         while(sel < 0 || sel > 2);
 

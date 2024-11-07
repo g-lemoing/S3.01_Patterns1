@@ -8,6 +8,5 @@ public class Main {
             exit = Menu.menu(agenda);
         }
         while (!exit);
-
     }
 }
