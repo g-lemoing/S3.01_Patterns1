@@ -9,6 +9,23 @@ Aquest objecte té un atribut estàtic, una llista on desarem les ordres registr
 Una altra opció de menú permet d'eliminar l'última ordre entrada, i una altre la de llistar les ordres desades a la llista començant per les més recents.
 Aquesta instància compleix també el propòsit de ser accessible des de qualsevol part de l'applicació.
 
+## Nivell 2
+
+
+## Nivell 3 - Patró command
+En aquest exercici, es tracta de fer servir el patró Command per implementar els mètodes d'arrencar, accelerar i frenar per a 4 tipus de vehicles: cotxe, bici, avió i vaixell. Identifiquem els components d'aquest patró:
+#### La interfície Command
+Aquest public interface declara un sol mètode genèric execute()
+#### Els comandaments concrets
+Creem 3 classes que implementen el mètode execute() de la interfície, per a les accions d'arrencar, accelerar i frenar el vehicle.
+#### Les classes receptores
+Hem creat una classe Vehicle amb la declaració dels 3 mètodes arrencar, accelerar i frenar, que implementem en cada una de les subclasses Car, Bicycle, Plane and Boat, amb la personalització corresponent.
+#### L'invocador
+Creem un invocador Operation que té com a attribut de classe Command, i dos mètodes: un SetCommand(command), i un executeCommand, que invocarà el mètode execute()
+#### Aplicació client
+Finalment, la aplicació client, a través d'un menú interactiu, proposarà a l'usuari posar-se al comandament d'un d'aquests vehicles i exercir qualsevol operació de les tres possibles. Cada una de elles es durà a terme a través de l'invocador, passant per paràmetre el vehicle i l'operació.
+
+
 ## Instruccions d'instal·lació
 Tecnologies Utilitzades : IDE IntelliJ Idea v 2024.2.2 (Community Edition), Java, SDK openjdk-22 Oracle OpenJDK 22.0.2
 Requisits: SDK openjdk-22 Oracle OpenJDK 22.0.2.
