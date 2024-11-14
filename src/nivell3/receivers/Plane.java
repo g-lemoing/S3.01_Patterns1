@@ -1,5 +1,4 @@
 package nivell3.receivers;
-import nivell3.receivers.Vehicle;
 
 public class Plane extends Vehicle {
     public void start() {
