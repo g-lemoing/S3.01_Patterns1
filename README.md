@@ -1,5 +1,5 @@
 # Sprint 3 - Task 1 - Patterns 1
-## Nivell 1
+## Nivell 1 - Patró Singleton
 Aquest exercici serveix per a concretar l'ús del patró Singleton. Crearem una instància "Undo" garantint que només n'existeixi una. 
 Aquesta funcionalitat "Desfer" típica en la majoria de programaris justifica l´ús d'aquest patró, ja que només ha d'existir una pila d'ordres regitrats, i no vàries.
 
@@ -9,10 +9,22 @@ Aquest objecte té un atribut estàtic, una llista on desarem les ordres registr
 Una altra opció de menú permet d'eliminar l'última ordre entrada, i una altre la de llistar les ordres desades a la llista començant per les més recents.
 Aquesta instància compleix també el propòsit de ser accessible des de qualsevol part de l'applicació.
 
-## Nivell 2
+## Nivell 2 - Patró Abstract Factory
+Aquest exercici demana crear una agenda internacional de números de telèfon i d'adreces, mitjançant el patró Abstract Factory, que permeti gestionar de forma independent els diferents formats que es donin segons el país.
+Tindrem en aquest cas, una família de productes d'agenda: telèfons d'una banda, i adreces d'una altra. I les variants seran els països, en aquest cas, Espanya, Portugal i Regne Unit. Aplicarem regex de validació sobre el format de número de telèfon, i sobre el de codi postal, que a Espanya és de 5 digits comprès dins del rang 01000-52999, a Portugal és de 4 més 3 dígits, i al Regne Unit d'un format que combina xifres i lletres.
+#### Interfícies: Agenda Factory, Address i Phone
+L'Abstract Factory és una interfície amb dos mètodes declarat: createPhone() i createAddress(), que retornen un objecte Phone i Address respetivament.
+Les interfícies Address i Phone declaren els mètodes a implementar en cada país.
+#### Classes implementant l'Agenda Factory
+Creem una classe Agenda per a cada país que implementa els mètodes de l'Agenda Factory, i que retornen objectes Phone i Address del país.
+#### Classes finals que implementen les especificitats de cada país
+Creem una classe per a cada combinació Producte-País, amb un mètode Set que estableixi el telèfon o l'adreça, i tots els altres mètodes necessaris per a llegir la informació i validar-la.
+#### Classe client
+La creació d'una entrada d'agenda demana primer pel país corresponent.
+Es creen dos objectes de telèfon i d'adreça del país seleccionat.
+L'usuari entra la informació necessària fent servir els mètodes on consta la lògica de cada país, i s'actualitzen els dos objectes. L'entrada d'agenda s'afegeix a l'agenda.
 
-
-## Nivell 3 - Patró command
+## Nivell 3 - Patró Command
 En aquest exercici, es tracta de fer servir el patró Command per implementar els mètodes d'arrencar, accelerar i frenar per a 4 tipus de vehicles: cotxe, bici, avió i vaixell. Identifiquem els components d'aquest patró:
 #### La interfície Command
 Aquest public interface declara un sol mètode genèric execute()
